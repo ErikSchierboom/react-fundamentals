@@ -9,7 +9,7 @@ function UsernameForm({onSubmitUsername}) {
 
   function handleSubmit(event) {
     event.preventDefault()
-    onSubmitUsername(inputRef.current.value)
+    onSubmitUsername(username)
   }
 
   function handleChange(event) {
